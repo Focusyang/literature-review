@@ -1,0 +1,63 @@
+{
+  "metadata_status": "VERSION_1_2_PREPARED_FOR_PUBLIC_RELEASE",
+  "deposit_status": "PREPARED_FOR_PUBLIC_RELEASE",
+  "title": "Data and code for a critical review of column generation and branch-and-price acceleration",
+  "version": "1.2",
+  "prepared_date": "2026-10-12",
+  "creators": [
+    {
+      "name": "Xinran Yang",
+      "given_name": "Xinran",
+      "family_name": "Yang",
+      "affiliation": "School of Management and Engineering, Capital University of Economics and Business, China"
+    }
+  ],
+  "creators_status": "AUTHOR_CONFIRMED",
+  "repository": {
+    "url": "https://github.com/Focusyang/literature-review",
+    "platform": "GitHub",
+    "status": "AUTHOR_DESIGNATED_PUBLIC_RELEASE_DESTINATION"
+  },
+  "persistent_identifier": null,
+  "publication_date": null,
+  "data_license": null,
+  "software_license": null,
+  "access_status": "PREPARED_FOR_PUBLIC_REPOSITORY",
+  "resource_types": [
+    "Review dataset",
+    "Software",
+    "Methods"
+  ],
+  "language": "en",
+  "keywords": [
+    "column generation",
+    "branch-and-price",
+    "pricing",
+    "machine learning",
+    "critical review",
+    "reproducibility"
+  ],
+  "description": "Adjudicated records for 99 study families, 154 method variants, 505 source-located evidence items and 78 curated claims, with search and screening logs, version metadata, a codebook, source-data joins and portable code for regenerating review tables and figures. This is a bounded critical sample and does not reproduce source-paper solver experiments.",
+  "related_manuscript_identifier": null,
+  "coverage": {
+    "initial_search_cutoff": "2026-10-11",
+    "follow_up_checks_date": "2026-10-12",
+    "timezone": "Asia/Shanghai"
+  },
+  "missing_release_decisions": [
+    "Data and software license authorization",
+    "Optional archival persistent identifier if assigned by an archive",
+    "Article link after an actual article or preprint identifier exists"
+  ],
+  "excluded_materials": [
+    "Original paper PDFs",
+    "Third-party extracted full text",
+    "Publisher abstracts",
+    "Raw web-response dumps",
+    "Source-page screenshots",
+    "Private author draft",
+    "Private contact fields",
+    "Host-specific paths",
+    "Historical render QA images"
+  ]
+}
