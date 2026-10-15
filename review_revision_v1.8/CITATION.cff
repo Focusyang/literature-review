@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Cite this revision supplement using its version-specific Zenodo DOI."
+title: "Revision materials for a critical review of column generation and branch-and-price acceleration"
+type: dataset
+authors:
+  - family-names: Yang
+    given-names: Xinran
+version: '1.8'
+date-released: 2026-10-15
+repository-code: 'https://github.com/Focusyang/literature-review'
+url: 'https://github.com/Focusyang/literature-review/tree/main/review_revision_v1.8'
+license: CC-BY-4.0
+doi: 10.5281/zenodo.23398854

@@ -1,3 +1,9 @@
+# Current revision 1.8
+
+The revised manuscript, review workbook, change list, corrected coding records and regenerated figures are available in [review_revision_v1.8](review_revision_v1.8/). Zenodo archive: [10.5281/zenodo.23398854](https://doi.org/10.5281/zenodo.23398854). The 46 unresolved decisions remain unresolved. All previous release files below are preserved.
+
+## Earlier release documentation
+
 # Column generation and branch-and-price review data and code
 
 Version 1.2, prepared 12 October 2026 for public release at https://github.com/Focusyang/literature-review.

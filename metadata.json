@@ -59,5 +59,12 @@
     "Private contact fields",
     "Host-specific paths",
     "Historical render QA images"
-  ]
+  ],
+  "latest_revision": {
+    "version": "1.8",
+    "doi": "10.5281/zenodo.23398854",
+    "url": "https://doi.org/10.5281/zenodo.23398854",
+    "path": "review_revision_v1.8",
+    "relation_to_existing_metadata": "Revision supplement; existing metadata describes the retained historical baseline."
+  }
 }

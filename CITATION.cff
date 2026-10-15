@@ -1,18 +1,13 @@
 cff-version: 1.2.0
-message: "Please cite the specific version or immutable commit of this review dataset that you accessed."
+message: "Cite this revision supplement using its version-specific Zenodo DOI."
+title: "Revision materials for a critical review of column generation and branch-and-price acceleration"
 type: dataset
-title: "Data and code for a critical review of column generation and branch-and-price acceleration"
-version: "1.2"
 authors:
-  - family-names: "Yang"
-    given-names: "Xinran"
-    affiliation: "School of Management and Engineering, Capital University of Economics and Business, China"
-url: "https://github.com/Focusyang/literature-review"
-abstract: "Review records for 99 study families, 154 method variants, 505 source-located evidence items and 78 curated claims, with search and screening logs, version metadata, a codebook, and portable summary-regeneration code. Prepared version 1.2; no archival DOI or reuse license is assigned."
-keywords:
-  - column generation
-  - branch-and-price
-  - pricing
-  - machine learning
-  - critical review
-  - reproducibility
+  - family-names: Yang
+    given-names: Xinran
+version: '1.8'
+date-released: 2026-10-15
+repository-code: 'https://github.com/Focusyang/literature-review'
+url: 'https://github.com/Focusyang/literature-review/tree/main/review_revision_v1.8'
+license: CC-BY-4.0
+doi: 10.5281/zenodo.23398854
