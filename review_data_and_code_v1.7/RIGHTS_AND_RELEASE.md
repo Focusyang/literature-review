@@ -1,6 +1,6 @@
 # Rights and release status
 
-Version 1.7 was prepared on 15 October 2026 for public release at https://github.com/Focusyang/literature-review. Creator and licensor: Xinran Yang, School of Management and Engineering, Capital University of Economics and Business, China. Repository history records any completed upload. No archival DOI has been assigned. The public package is an audit version with unresolved coding decisions.
+Version 1.7 was prepared on 15 October 2026 for public release at https://github.com/Focusyang/literature-review. Creator and licensor: Xinran Yang, School of Management and Engineering, Capital University of Economics and Business, China. Repository history records any completed upload. The archival DOI is [10.5281/zenodo.23386416](https://doi.org/10.5281/zenodo.23386416), with the [record on Zenodo](https://zenodo.org/records/23386416). The public package is an audit version with unresolved coding decisions.
 
 ## License scope
 
@@ -21,4 +21,4 @@ Original paper PDFs, extracted full text, source-page images and raw web-respons
 
 ## Attribution and citation
 
-For the author's data and documentation, credit Xinran Yang, identify this dataset and its version, include the CC BY 4.0 license notice, and state whether you changed the material. Preserve the copyright and permission notice when distributing the code or substantial portions of it. `CITATION.cff` contains the recommended citation metadata. Use a DOI only after an archive actually assigns it; otherwise cite the public version or immutable GitHub commit you accessed.
+For the author's data and documentation, credit Xinran Yang, identify this dataset and its version, include the CC BY 4.0 license notice, and state whether you changed the material. Preserve the copyright and permission notice when distributing the code or substantial portions of it. `CITATION.cff` contains the recommended citation metadata. For this version, cite DOI https://doi.org/10.5281/zenodo.23386416. The archive records the source GitHub commit 62b2f7b7d151183542f6a43ea7a500ec2bc39630.

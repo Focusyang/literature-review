@@ -1,6 +1,6 @@
 {
   "metadata_status": "PUBLIC_REPOSITORY_AUDIT_VERSION",
-  "deposit_status": "GITHUB_VERSION_NO_ARCHIVAL_DOI",
+  "deposit_status": "ZENODO_ARCHIVED_AUDIT_VERSION",
   "title": "Data and code for a critical review of column generation and branch-and-price acceleration",
   "version": "1.7",
   "prepared_date": "2026-10-15",
@@ -19,11 +19,11 @@
     "status": "PUBLIC_AUDIT_VERSION",
     "version_url": "https://github.com/Focusyang/literature-review/tree/main/review_data_and_code_v1.7"
   },
-  "persistent_identifier": null,
+  "persistent_identifier": "https://doi.org/10.5281/zenodo.23386416",
   "publication_date": "2026-10-15",
   "data_license": "CC-BY-4.0",
   "software_license": "MIT",
-  "access_status": "PUBLIC_GITHUB",
+  "access_status": "PUBLIC_GITHUB_AND_ZENODO",
   "resource_types": [
     "Review dataset",
     "Software",
@@ -56,8 +56,7 @@
     "query_level_zero_hit_history": "NOT_RECONSTRUCTABLE"
   },
   "missing_release_decisions": [
-    "Author adjudication of recorded coding questions and final manuscript verification",
-    "Zenodo account and verified deposit for an archival DOI"
+    "Author adjudication of recorded coding questions and final manuscript verification"
   ],
   "excluded_materials": [
     "Original paper PDFs",
@@ -83,5 +82,15 @@
     "prior_AI_review_cases": 27,
     "human_adjudications_recorded": 0,
     "no_claim_of_full_human_verification": true
+  },
+  "doi": "10.5281/zenodo.23386416",
+  "archive": {
+    "platform": "Zenodo",
+    "record_id": "23386416",
+    "url": "https://zenodo.org/records/23386416",
+    "doi": "10.5281/zenodo.23386416",
+    "publication_date": "2026-10-15",
+    "source_git_commit": "62b2f7b7d151183542f6a43ea7a500ec2bc39630",
+    "source_version_url": "https://github.com/Focusyang/literature-review/tree/62b2f7b7d151183542f6a43ea7a500ec2bc39630/review_data_and_code_v1.7"
   }
 }
