@@ -1,0 +1,33 @@
+file,field,definition
+data/variants_v1_6.csv,method_id,Method-variant identifier (Sxxx-Mn); joins data/release_1_2/methods.csv for the 138 variants of release 1.2
+data/variants_v1_6.csv,study_id,Study-family identifier (Sxxx)
+data/variants_v1_6.csv,citation,Author-year citation used in the article
+data/variants_v1_6.csv,variant_description,Variant wording of Table A.1
+data/variants_v1_6.csv,reading_record_ids,Actual reading-record identifiers (vertical-bar separated); join data/release_1_2/records.csv or data/records_added_v1_6.csv
+data/variants_v1_6.csv,reading_version,Short description of each version read
+data/variants_v1_6.csv,full_reference,Reference-list entry of the article
+data/variants_v1_6.csv,collection,CORE or SUPPORT
+data/variants_v1_6.csv,method_type,TRADITIONAL or LEARNING_GUIDED
+data/variants_v1_6.csv,publication_type,"JOURNAL, CONFERENCE, PREPRINT or WORKSHOP (status of the research report, not of the file read)"
+data/variants_v1_6.csv,primary_layer,Primary intervention layer L1-L6
+data/variants_v1_6.csv,secondary_layers,Other layers (vertical-bar separated; empty if none)
+data/variants_v1_6.csv,primary_mechanism,"G1-G5, GU or GU-offline"
+data/variants_v1_6.csv,documentation_status,"Derived: MECHANISM_ASSIGNED, UNASSIGNED or UNASSIGNED_OFFLINE_ONLY"
+data/variants_v1_6.csv,secondary_mechanisms_release_1_2,Secondary guarantee codes carried over from release 1.2 (S066-M2 updated); empty for S105
+data/variants_v1_6.csv,scopes,Evaluated empirical scopes E0-E4 (vertical-bar separated; empty if none reported)
+data/variants_v1_6.csv,in_release_1_2,True if the variant is in release 1.2
+data/variants_v1_6.csv,change_since_release_1_2,Short description of any change; details in CHANGES_v1.2_to_v1.6.csv
+data/figure3_matrix_v1_6.csv,method_type,"ALL, TRADITIONAL or LEARNING_GUIDED"
+data/figure3_matrix_v1_6.csv,primary_mechanism,G1-G5 or GU (GU includes GU-offline)
+data/figure3_matrix_v1_6.csv,scope,E0-E4
+data/figure3_matrix_v1_6.csv,n_variant_scope_memberships,Number of variants with this primary mechanism evaluated at this scope
+data/figure3_matrix_v1_6.csv,method_ids,Contributing method identifiers
+data/selection_flow_v1_6.csv,stream,"Crossref (logged discovery export), Frame (author-assembled full-text frame) or Included"
+data/selection_flow_v1_6.csv,stage,Stage shown in Figure A.1
+data/selection_flow_v1_6.csv,count,Recomputed count
+data/selection_flow_v1_6.csv,derivation,Source file and rule used by code/selection_counts.py
+data/records_added_v1_6.csv,record_id,Reading or bibliographic record added in release 1.6
+data/studies_added_v1_6.csv,study_id,Study family added in release 1.6
+recoding_pack/cases.csv,case_id,Neutral case identifier C01-C27
+recoding_key/first_coder_key.csv,set,"random, boundary or random|boundary"
+CHANGES_v1.2_to_v1.6.csv,change_type,"ADDED_FAMILY, ADDED_VARIANT, RECODED, ADDED_READING_RECORD, NORMALIZED or ADDED_FILE"

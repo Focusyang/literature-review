@@ -1,0 +1,37 @@
+{
+  "variants": 146,
+  "families": 88,
+  "evidence_join_counts": {
+    "METHOD_ID": 113,
+    "FAMILY_ONLY": 25,
+    "NO_RELEASE_1_2_EVIDENCE": 8
+  },
+  "A1_core_L_G_E_mismatch": [],
+  "missing_local_source_mapping": [],
+  "prior_AI_proposals": 27,
+  "prior_human_adjudications": 0,
+  "s1_records": 74,
+  "s1_categories": {
+    "AP": 39,
+    "CA": 20,
+    "RC": 13,
+    "GC": 2
+  },
+  "s1_metadata_mismatches": [],
+  "s2_families": 24,
+  "s2_yes": 23,
+  "workbook_csv_checks": [
+    {
+      "sheet": "Table S1 unselected leads",
+      "rows_including_header": 75,
+      "equals_csv": true
+    },
+    {
+      "sheet": "Table S2 E4 completion",
+      "rows_including_header": 25,
+      "equals_csv": true
+    }
+  ],
+  "current_S105_page_located_variants": 8,
+  "historical_evidence_join_counts_note": "Counts refer to release_1_2 only; S105 page evidence is added separately in v1.7."
+}

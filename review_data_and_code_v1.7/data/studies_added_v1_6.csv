@@ -1,0 +1,2 @@
+study_id,collection,citation,formal_record_id,actual_read_record_id,n_variants,method_type,identified_by,evidence_rows
+S105,CORE,"Sadykov et al., 2019",R105,R105-V1,8,TRADITIONAL,"Targeted supplementary search, 14 October 2026",NOT_INCLUDED (variant-level codes are in data/variants_v1_6.csv)

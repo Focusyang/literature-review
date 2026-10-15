@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "Please cite the specific version or immutable commit of this review dataset that you accessed."
+type: dataset
+title: "Data and code for a critical review of column generation and branch-and-price acceleration"
+version: "1.7"
+authors:
+  - family-names: "Yang"
+    given-names: "Xinran"
+    affiliation: "School of Management and Engineering, Capital University of Economics and Business, China"
+url: "https://github.com/Focusyang/literature-review"
+abstract: "Review records for 100 study families and 146 coded method variants of column generation and branch-and-price acceleration, with search and screening logs, a codebook, supplementary tables, an independent re-coding pack and scripts that regenerate the article's figures. Prepared version 1.7; CC BY 4.0 applies to original data and documentation; MIT applies to code. No archival DOI is assigned."
+keywords:
+  - column generation
+  - branch-and-price
+  - pricing
+  - machine learning
+  - critical review
+  - reproducibility
+license:
+  - CC-BY-4.0
+  - MIT

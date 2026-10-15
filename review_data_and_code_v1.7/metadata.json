@@ -1,0 +1,87 @@
+{
+  "metadata_status": "PUBLIC_REPOSITORY_AUDIT_VERSION",
+  "deposit_status": "GITHUB_VERSION_NO_ARCHIVAL_DOI",
+  "title": "Data and code for a critical review of column generation and branch-and-price acceleration",
+  "version": "1.7",
+  "prepared_date": "2026-10-15",
+  "creators": [
+    {
+      "name": "Xinran Yang",
+      "given_name": "Xinran",
+      "family_name": "Yang",
+      "affiliation": "School of Management and Engineering, Capital University of Economics and Business, China"
+    }
+  ],
+  "creators_status": "AUTHOR_CONFIRMED",
+  "repository": {
+    "url": "https://github.com/Focusyang/literature-review",
+    "platform": "GitHub",
+    "status": "PUBLIC_AUDIT_VERSION",
+    "version_url": "https://github.com/Focusyang/literature-review/tree/main/review_data_and_code_v1.7"
+  },
+  "persistent_identifier": null,
+  "publication_date": "2026-10-15",
+  "data_license": "CC-BY-4.0",
+  "software_license": "MIT",
+  "access_status": "PUBLIC_GITHUB",
+  "resource_types": [
+    "Review dataset",
+    "Software",
+    "Methods"
+  ],
+  "language": "en",
+  "keywords": [
+    "column generation",
+    "branch-and-price",
+    "pricing",
+    "machine learning",
+    "critical review",
+    "reproducibility"
+  ],
+  "description": "Records for 100 study families (80 core, 8 supporting, 12 background) and 146 coded method variants, with search and screening logs, a codebook, Supplementary Tables S1-S2, an independent re-coding pack, agreement code and scripts that regenerate Figures 1-3 and A.1. Supersedes release 1.2 for the article counts. This is a bounded critical sample and does not reproduce source-paper solver experiments. Version 1.7 is an audit version with unresolved coding proposals, recovered public-search indexes, S105 page locators and qualified tree-completion reporting.",
+  "related_manuscript_identifier": null,
+  "coverage": {
+    "initial_search_cutoff": "2026-10-11",
+    "follow_up_checks_date": "2026-10-12",
+    "timezone": "Asia/Shanghai",
+    "targeted_search_date": "2026-10-14",
+    "initial_author_collection_sources": [
+      "Web of Science",
+      "ScienceDirect",
+      "SSRN",
+      "other sources"
+    ],
+    "initial_author_collection_search_log": "NOT_RETAINED",
+    "retained_public_search_records": "11-14 October 2026",
+    "query_level_zero_hit_history": "NOT_RECONSTRUCTABLE"
+  },
+  "missing_release_decisions": [
+    "Author adjudication of recorded coding questions and final manuscript verification",
+    "Zenodo account and verified deposit for an archival DOI"
+  ],
+  "excluded_materials": [
+    "Original paper PDFs",
+    "Third-party extracted full text",
+    "Publisher abstracts",
+    "Raw web-response dumps",
+    "Source-page screenshots",
+    "Private author draft",
+    "Private contact fields",
+    "Host-specific paths",
+    "Historical render QA images"
+  ],
+  "supersedes_version": "1.6",
+  "license_authorization_date": "2026-10-15",
+  "license_scope_file": "RIGHTS_AND_RELEASE.md",
+  "preprint_status": "AUTHOR_CONFIRMED_NO_PREPRINT",
+  "independent_human_recoding_status": "NONE_AUTHOR_CONFIRMED",
+  "evidence_audit": {
+    "frozen_variants": 146,
+    "release_1_2_direct_method_evidence_joins": 113,
+    "release_1_2_family_only_joins": 25,
+    "new_S105_page_located_variants": 8,
+    "prior_AI_review_cases": 27,
+    "human_adjudications_recorded": 0,
+    "no_claim_of_full_human_verification": true
+  }
+}

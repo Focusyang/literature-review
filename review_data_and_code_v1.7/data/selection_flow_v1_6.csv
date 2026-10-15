@@ -1,0 +1,20 @@
+stream,stage,count,derivation
+Crossref,Queries run / returning records,10 / 9,search_log.csv; crossref_title_triage.csv
+Crossref,Records identified,180,crossref_title_triage.csv rows
+Crossref,Duplicate DOI rows removed,10,rows minus distinct DOIs
+Crossref,Distinct DOIs screened at title,170,distinct DOIs
+Crossref,Excluded at title,52,screen_status EXCLUDED_AT_TITLE
+Crossref,Already in the full-text frame,39,screen_status REPRESENTED_IN_DOWNLOAD_CHECKLIST
+Crossref,Leads assessed at title and available abstract,79,additional_lead_dispositions.csv rows
+Crossref,Not selected for the critical sample (Supplementary Table S1),74,NOT_SELECTED_FOR_CRITICAL_SAMPLE
+Crossref,Excluded (CG as RL action space),1,EXCLUDED
+Crossref,Earlier report of an included family (S018),1,EARLIER_REPORT_OF_INCLUDED_FAMILY
+Crossref,"Supplied, read in full and added to the frame","3 (S102, S103, S104)",FULLTEXT_READ_INCLUDED
+Frame,Reports assembled for full-text assessment (initial),101,supplied FT- reports minus later additions
+Frame,Reports assessed in full text,104,"read_reports.csv supplied reports, excluding the separately accessed e-companion (includes 1 linked erratum)"
+Frame,Candidate families assessed,103,screening.csv rows
+Frame,Adjacent surveys excluded from method coding,4,decision EXCLUDED
+Frame,Families retained in release 1.2 (core / supporting / background),99 (79 / 8 / 12),"decisions CORE, SUPPORT, BACKGROUND"
+Frame,Core families added by the targeted search of 14 October 2026,1,studies_added_v1_6.csv
+Included,Study families included (core / supporting / background),100 (80 / 8 / 12),release 1.2 plus additions
+Included,Coded method variants (core and supporting families),146,variants_v1_6.csv rows
