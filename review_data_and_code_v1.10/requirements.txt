@@ -1,0 +1,7 @@
+# Python 3.10 or later
+pandas>=2.0
+numpy>=1.24
+matplotlib>=3.7
+xlsxwriter>=3.0
+openpyxl>=3.1
+# code/make_sample.py, code/agreement.py and code/selection_counts.py use only the standard library

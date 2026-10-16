@@ -1,9 +1,9 @@
 cff-version: 1.2.0
-message: "Please cite this dataset with its concept DOI and the version used."
+message: "Please cite the version DOI and state the version used."
 type: dataset
 title: "Data and code for a critical review of column generation and branch-and-price acceleration"
-version: "1.9"
-doi: "10.5281/zenodo.23386415"
+version: "1.10"
+doi: "10.5281/zenodo.23419224"
 date-released: "2026-10-16"
 authors:
   - family-names: "Yang"
@@ -12,13 +12,13 @@ authors:
 identifiers:
   - type: doi
     value: "10.5281/zenodo.23386415"
-    description: "Concept DOI. It resolves to the latest version."
+    description: "Concept DOI; resolves to the latest version."
   - type: doi
-    value: "10.5281/zenodo.23410513"
-    description: "Version 1.9."
-url: "https://github.com/Focusyang/literature-review/tree/main/review_data_and_code_v1.9"
+    value: "10.5281/zenodo.23419224"
+    description: "Version 1.10."
+url: "https://github.com/Focusyang/literature-review/tree/main/review_data_and_code_v1.10"
 repository-code: "https://github.com/Focusyang/literature-review"
-abstract: "Coded inventory of 113 method variants from 70 study families on the acceleration of column generation and branch-and-price, with search and screening records, Supplementary Tables S1 and S2, Table 4 source locators, a codebook, an independent re-coding pack and scripts that regenerate the figures and derived tables of the accompanying review. Original data and documentation are licensed under CC BY 4.0, and code under MIT."
+abstract: "Coded inventory of 130 method variants from 88 study families on the acceleration of column generation and branch-and-price, with search and screening records, Supplementary Tables S1 and S2, Table 4 source locators, a codebook, an independent re-coding pack and scripts that regenerate the figures and derived tables of the accompanying review. Original data and documentation are licensed under CC BY 4.0, and code under MIT."
 keywords:
   - column generation
   - branch-and-price

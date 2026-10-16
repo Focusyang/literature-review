@@ -1,6 +1,6 @@
-# Current version 1.9
+# Current version 1.10
 
-[review_data_and_code_v1.9](review_data_and_code_v1.9/) is the data and code package that accompanies the article *Accelerating Column Generation and Branch-and-Price with Traditional and Learning-Guided Methods: A Critical Review*. It holds the same 61 files as review_data_and_code_v1.9.zip in the Zenodo record of version 1.9, DOI [10.5281/zenodo.23410513](https://doi.org/10.5281/zenodo.23410513). The concept DOI [10.5281/zenodo.23386415](https://doi.org/10.5281/zenodo.23386415) resolves to the latest version. The [package README](review_data_and_code_v1.9/README.md) describes its contents, counts and scripts.
+[review_data_and_code_v1.10](review_data_and_code_v1.10/) is the data and code package that accompanies the article *Accelerating Column Generation and Branch-and-Price with Traditional and Learning-Guided Methods: A Critical Review*. It holds the same 85 files as review_data_and_code_v1.10.zip in the Zenodo record of version 1.10, DOI [10.5281/zenodo.23419224](https://doi.org/10.5281/zenodo.23419224). The concept DOI [10.5281/zenodo.23386415](https://doi.org/10.5281/zenodo.23386415) resolves to the latest version. The [package README](review_data_and_code_v1.10/README.md) describes its contents, counts and scripts.
 
 ## Earlier versions
 
@@ -8,6 +8,7 @@ All earlier files are preserved unchanged.
 
 | Version | Location | Zenodo DOI |
 |---|---|---|
+| 1.9 | [review_data_and_code_v1.9](review_data_and_code_v1.9/) | [10.5281/zenodo.23410513](https://doi.org/10.5281/zenodo.23410513) |
 | 1.8, revision supplement to version 1.7 | [review_revision_v1.8](review_revision_v1.8/) | [10.5281/zenodo.23398854](https://doi.org/10.5281/zenodo.23398854) |
 | 1.7 | [review_data_and_code_v1.7](review_data_and_code_v1.7/) | [10.5281/zenodo.23386416](https://doi.org/10.5281/zenodo.23386416) |
 | 1.2 | Supplementary_Data_and_Code.zip, documented below | None |

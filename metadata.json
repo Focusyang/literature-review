@@ -1,9 +1,7 @@
 {
-  "metadata_status": "VERSION_1_2_PREPARED_FOR_PUBLIC_RELEASE",
-  "deposit_status": "PREPARED_FOR_PUBLIC_RELEASE",
   "title": "Data and code for a critical review of column generation and branch-and-price acceleration",
-  "version": "1.2",
-  "prepared_date": "2026-10-12",
+  "version": "1.10",
+  "prepared_date": "2026-10-16",
   "creators": [
     {
       "name": "Xinran Yang",
@@ -12,23 +10,13 @@
       "affiliation": "School of Management and Engineering, Capital University of Economics and Business, China"
     }
   ],
-  "creators_status": "AUTHOR_CONFIRMED",
-  "repository": {
-    "url": "https://github.com/Focusyang/literature-review",
-    "platform": "GitHub",
-    "status": "AUTHOR_DESIGNATED_PUBLIC_RELEASE_DESTINATION"
-  },
-  "persistent_identifier": null,
-  "publication_date": null,
-  "data_license": null,
-  "software_license": null,
-  "access_status": "PREPARED_FOR_PUBLIC_REPOSITORY",
-  "resource_types": [
-    "Review dataset",
-    "Software",
-    "Methods"
-  ],
+  "concept_doi": "10.5281/zenodo.23386415",
+  "version_doi": "10.5281/zenodo.23419224",
+  "repository_url": "https://github.com/Focusyang/literature-review",
+  "resource_type": "dataset",
   "language": "en",
+  "data_license": "CC-BY-4.0",
+  "software_license": "MIT",
   "keywords": [
     "column generation",
     "branch-and-price",
@@ -37,35 +25,39 @@
     "critical review",
     "reproducibility"
   ],
-  "description": "Adjudicated records for 99 study families, 154 method variants, 505 source-located evidence items and 78 curated claims, with search and screening logs, version metadata, a codebook, source-data joins and portable code for regenerating review tables and figures. This is a bounded critical sample and does not reproduce source-paper solver experiments.",
-  "related_manuscript_identifier": null,
+  "description": "Coded inventory of 130 method variants (63 traditional, 67 learning-guided) from all 88 core or supporting study families (80 core, 8 supporting), drawn from a 100-family full-text frame. Includes the v1.10 adjudication record, family-level sensitivity table, Figure 3 and Figure A.1 data, Table 4 source locators and recheck notes, Supplementary Tables S1 and S2 with the supplied-upper-bound column, retained search records and the 16 October OpenAlex/arXiv coverage check, codebook, 27-case independent re-coding pack with agreement code, unchanged release 1.2 evidence tables, and figure sources. This is a bounded critical sample, not an exhaustive census or a reproduction of the source papers' solver experiments. No independent human re-coding has been completed.",
   "coverage": {
     "initial_search_cutoff": "2026-10-11",
     "follow_up_checks_date": "2026-10-12",
-    "timezone": "Asia/Shanghai"
+    "targeted_search_date": "2026-10-14",
+    "timezone": "Asia/Shanghai",
+    "initial_author_collection_sources": [
+      "Web of Science",
+      "ScienceDirect",
+      "SSRN",
+      "other sources"
+    ],
+    "initial_author_collection_search_log": "not retained",
+    "coverage_check_date": "2026-10-16"
   },
-  "missing_release_decisions": [
-    "Data and software license authorization",
-    "Optional archival persistent identifier if assigned by an archive",
-    "Article link after an actual article or preprint identifier exists"
-  ],
+  "independent_human_recoding": "none",
   "excluded_materials": [
     "Original paper PDFs",
     "Third-party extracted full text",
     "Publisher abstracts",
-    "Raw web-response dumps",
-    "Source-page screenshots",
-    "Private author draft",
-    "Private contact fields",
-    "Host-specific paths",
-    "Historical render QA images"
+    "Raw web responses",
+    "Source-page images"
   ],
-  "latest_revision": {
-    "version": "1.9",
-    "doi": "10.5281/zenodo.23410513",
-    "url": "https://doi.org/10.5281/zenodo.23410513",
-    "concept_doi": "10.5281/zenodo.23386415",
-    "path": "review_data_and_code_v1.9",
-    "relation_to_existing_metadata": "Current package, described by its own metadata.json. The other fields of this file describe release 1.2."
+  "counts": {
+    "variants": 130,
+    "traditional": 63,
+    "learning_guided": 67,
+    "families": 88,
+    "core_families": 80,
+    "supporting_families": 8,
+    "scope_memberships": 207,
+    "recoding_unique_cases": 27,
+    "recoding_random_cases": 24,
+    "recoding_boundary_cases": 4
   }
 }
