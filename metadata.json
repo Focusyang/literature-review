@@ -61,10 +61,11 @@
     "Historical render QA images"
   ],
   "latest_revision": {
-    "version": "1.8",
-    "doi": "10.5281/zenodo.23398854",
-    "url": "https://doi.org/10.5281/zenodo.23398854",
-    "path": "review_revision_v1.8",
-    "relation_to_existing_metadata": "Revision supplement; existing metadata describes the retained historical baseline."
+    "version": "1.9",
+    "doi": "10.5281/zenodo.23410513",
+    "url": "https://doi.org/10.5281/zenodo.23410513",
+    "concept_doi": "10.5281/zenodo.23386415",
+    "path": "review_data_and_code_v1.9",
+    "relation_to_existing_metadata": "Current package, described by its own metadata.json. The other fields of this file describe release 1.2."
   }
 }

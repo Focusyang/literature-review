@@ -1,0 +1,146 @@
+file,field,definition
+data/coded_inventory_v1_9.csv,method_id,"Method-variant identifier (Sxxx-Mn). Identifiers are stable across versions, so numbering within a family need not be consecutive."
+data/coded_inventory_v1_9.csv,study_id,Study-family identifier (Sxxx)
+data/coded_inventory_v1_9.csv,citation,Author-year citation used in the article
+data/coded_inventory_v1_9.csv,collection,CORE or SUPPORT (see the codebook)
+data/coded_inventory_v1_9.csv,method_type,TRADITIONAL or LEARNING_GUIDED
+data/coded_inventory_v1_9.csv,publication_type,"JOURNAL, CONFERENCE, PREPRINT or WORKSHOP. Status of the research report, not of the file read."
+data/coded_inventory_v1_9.csv,variant_description,Variant wording of Table A.1
+data/coded_inventory_v1_9.csv,primary_layer,"Primary intervention layer, L1-L6"
+data/coded_inventory_v1_9.csv,secondary_layers,"Other layers directly changed by the variant, separated by |. Empty if none."
+data/coded_inventory_v1_9.csv,primary_mechanism,"G1-G5, GU or GU-offline. Used for Table A.1 and Figure 3."
+data/coded_inventory_v1_9.csv,documentation_status,"Derived from primary_mechanism: MECHANISM_ASSIGNED (G1-G5), UNASSIGNED (GU) or UNASSIGNED_OFFLINE_ONLY (GU-offline)"
+data/coded_inventory_v1_9.csv,secondary_mechanisms_release_1_2,"Secondary guarantee codes as recorded in release 1.2, separated by |, with S066-M2 updated to G4. Some values repeat the primary code because release 1.2 recorded them for the family. GU here means that release 1.2 recorded no further established mechanism. One entry (S102-M3) carries a short qualification. Not used for Figure 3."
+data/coded_inventory_v1_9.csv,scopes,"Evaluated empirical scopes E0-E4, separated by |. Empty if no computation of the variant is reported (S066-M3)."
+data/coded_inventory_v1_9.csv,reading_record_ids,"Identifiers of the reading records of the versions read, separated by |"
+data/coded_inventory_v1_9.csv,reading_version,"Short description of each version read: record identifier, version type, PDF pages and DOI or URL"
+data/coded_inventory_v1_9.csv,full_reference,Reference-list entry of the article
+data/figure3_matrix_v1_9.csv,method_type,"ALL, TRADITIONAL or LEARNING_GUIDED"
+data/figure3_matrix_v1_9.csv,primary_mechanism,G1-G5 or GU (GU includes GU-offline)
+data/figure3_matrix_v1_9.csv,scope,E0-E4
+data/figure3_matrix_v1_9.csv,n_variant_scope_memberships,Number of variants with this primary mechanism evaluated at this scope
+data/figure3_matrix_v1_9.csv,method_ids,"Contributing method identifiers, separated by |"
+data/figure3_margins_v1_9.csv,method_type,"ALL, TRADITIONAL or LEARNING_GUIDED"
+data/figure3_margins_v1_9.csv,primary_mechanism,G1-G5 or GU (GU includes GU-offline)
+data/figure3_margins_v1_9.csv,n_variants,Number of distinct variants (right bars of Figure 3)
+data/figure3_margins_v1_9.csv,n_variants_without_scope,Variants with no measured scope (marked * in Figure 3)
+data/figure3_margins_v1_9.csv,method_ids_without_scope,"Their method identifiers, separated by |"
+data/selection_flow_v1_9.csv,stream,"Crossref (logged discovery export), Frame (author-assembled full-text frame) or Included"
+data/selection_flow_v1_9.csv,stage,Stage shown in Figure A.1
+data/selection_flow_v1_9.csv,count,Count written by code/selection_counts.py
+data/selection_flow_v1_9.csv,derivation,Source file and rule
+data/table4_source_locators_v1_9.csv,table4_row,Row number in Table 4 of the article (1-10)
+data/table4_source_locators_v1_9.csv,study_id,Study-family identifier
+data/table4_source_locators_v1_9.csv,study,Author-year citation
+data/table4_source_locators_v1_9.csv,evaluation_level,"Evaluation level as worded in Table 4: complete BPC tree, complete B&P tree, CG or root CG"
+data/table4_source_locators_v1_9.csv,reading_version,Version read for the located values
+data/table4_source_locators_v1_9.csv,pdf_pages,1-based PDF pages of the version read
+data/table4_source_locators_v1_9.csv,printed_location,"Printed pages, sections and tables"
+data/table4_source_locators_v1_9.csv,population_and_denominator,"Instances, groups and repetitions behind the values"
+data/table4_source_locators_v1_9.csv,statistic,Type of statistic reported by the source
+data/table4_source_locators_v1_9.csv,located_values,Values located in the source. Derived values are labelled as derived.
+data/evidence_s105.csv,evidence_id,Row identifier: S105-Mn-AUDIT for a variant locator or S105-Cn for a supporting statement
+data/evidence_s105.csv,method_id,"Variant or variants concerned, separated by ;"
+data/evidence_s105.csv,pdf_pages,1-based PDF pages of the HAL v3 manuscript (page 1 is the HAL cover)
+data/evidence_s105.csv,printed_pages,Printed manuscript pages (PDF page minus 1)
+data/evidence_s105.csv,scope_supported,Evaluated scope or statement supported by the located passage
+data/evidence_s105.csv,boundary,Limit on the interpretation of the located passage
+data/evidence_s105.csv,other fields,"Source DOI, version, URL and SHA-256, date of the check, check type, page convention, variant name, locator, summary, excerpt and further locations"
+supplementary/Supplementary_Table_S1_unselected_leads.csv,Lead ID,Lead identifier CLxxx from search/additional_lead_dispositions.csv
+supplementary/Supplementary_Table_S1_unselected_leads.csv,Crossref query,Crossref query identifier (CRQxx) that returned the record
+supplementary/Supplementary_Table_S1_unselected_leads.csv,Rank,Rank within the first page of relevance-ranked results
+supplementary/Supplementary_Table_S1_unselected_leads.csv,Authors,Authors as returned by Crossref
+supplementary/Supplementary_Table_S1_unselected_leads.csv,Year,Year as returned by Crossref
+supplementary/Supplementary_Table_S1_unselected_leads.csv,Title,Title as returned by Crossref
+supplementary/Supplementary_Table_S1_unselected_leads.csv,Venue,Venue as returned by Crossref; empty when none was returned
+supplementary/Supplementary_Table_S1_unselected_leads.csv,DOI,DOI of the record
+supplementary/Supplementary_Table_S1_unselected_leads.csv,Recorded disposition,Disposition at title and available-abstract level. Not a full-text exclusion.
+supplementary/Supplementary_Table_S1_unselected_leads.csv,Screening date,Date of the disposition
+supplementary/Supplementary_Table_S1_unselected_leads.csv,Canonical work ID,Lead ID of the work that the record represents (CL075 is a second DOI of CL074)
+supplementary/Supplementary_Table_S1_unselected_leads.csv,Count as independent work,"Yes, or No for an alias of another record"
+supplementary/Supplementary_Table_S1_unselected_leads.csv,Cited in the article,Yes if the record is in the reference list of the article. Chapters of cited books are marked No with the cited book.
+supplementary/Supplementary_Table_S2_complete_tree_completion.csv,Family,Study-family identifier
+supplementary/Supplementary_Table_S2_complete_tree_completion.csv,Study,Author-year citation
+supplementary/Supplementary_Table_S2_complete_tree_completion.csv,Publication status,"J journal, Cnf conference, P preprint"
+supplementary/Supplementary_Table_S2_complete_tree_completion.csv,Type(s),"Type of the variants evaluated in a complete tree: T traditional, ML learning-guided"
+supplementary/Supplementary_Table_S2_complete_tree_completion.csv,At least one completed tree solve reported,"Yes or No, under the stopping rules stated by the source. Not a uniform count of exact optimality proofs."
+supplementary/Supplementary_Table_S2_complete_tree_completion.csv,Basis in accessed report,Reported completion outcome in the version read
+supplementary/Supplementary_Table_S2_complete_tree_completion.csv,Single showcased instance,Yes if the complete-tree result rests on one showcased instance
+supplementary/Supplementary_Table_S2_complete_tree_completion.csv,Evidence records (release 1.2 IDs),"Evidence record identifiers in the release 1.2 evidence table, separated by ;"
+recoding_pack/cases.csv,case_id,Neutral case identifier C01-C28
+recoding_pack/cases.csv,source_citation,Author-year citation of the source
+recoding_pack/cases.csv,full_reference,Reference-list entry
+recoding_pack/cases.csv,version_to_read,Version read by the first coder
+recoding_pack/cases.csv,variant_to_code,Variant to code
+recoding_pack/coding_form_blank.csv,all fields,Answer fields for the second coder; see recoding_pack/README_recoding.md
+recoding_key/first_coder_key.csv,case_id,Case identifier C01-C28
+recoding_key/first_coder_key.csv,"method_id, study_id",Variant and family identifiers
+recoding_key/first_coder_key.csv,set,random or boundary
+recoding_key/first_coder_key.csv,"primary_layer, secondary_layers, primary_mechanism, documentation_status, scopes","First-coder codes, as in the coded inventory"
+search/additional_lead_dispositions.csv,search_id,Recorded query/access operation identifier; may denote a batch.
+search/additional_lead_dispositions.csv,rank,Returned rank within the recorded first-page export.
+search/additional_lead_dispositions.csv,doi,Digital Object Identifier as recorded; does not alone prove full-text access or version equivalence.
+search/additional_lead_dispositions.csv,title,Bibliographic publication title.
+search/additional_lead_dispositions.csv,authors,Bibliographic author list as recorded; order is significant.
+search/additional_lead_dispositions.csv,year,Returned bibliographic year; does not settle first-public date.
+search/additional_lead_dispositions.csv,venue,Publication venue as recorded.
+search/additional_lead_dispositions.csv,screen_status,Disposition at this table's chronological stage; initial and later tables differ intentionally.
+search/additional_lead_dispositions.csv,reason,Recorded reason for a screening or version-link decision.
+search/additional_lead_dispositions.csv,candidate_record_id,"Previously matched publication record, if any; may be NA in historical triage."
+search/additional_lead_dispositions.csv,candidate_study_id,"Previously matched study family, if any; may be NA in historical triage."
+search/additional_lead_dispositions.csv,lead_id,Unique CLxxx identifier for the separate additional-lead assessment.
+search/additional_lead_dispositions.csv,screen_date,Date of the additional-lead assessment.
+search/additional_lead_dispositions.csv,screen_stage,Level of information inspected for the additional-lead decision.
+search/additional_lead_dispositions.csv,reviewer,Recorded AI-assisted screening agent; not independent human dual review.
+search/additional_lead_dispositions.csv,fulltext_status,Access/read status of the additional lead at the recorded decision.
+search/additional_lead_dispositions.csv,update_study_id,Retained family assigned after the lead was supplied and fully read.
+search/additional_lead_dispositions.csv,update_reading_record,Relative internal author-archive reading-record reference; not distributed as source paper.
+search/additional_lead_dispositions.csv,update_date,Date of the later supplied-fulltext update to this lead.
+search/citation_chasing.csv,trace_id,Unique selected citation-tracing event identifier.
+search/citation_chasing.csv,date,Date of the screening or tracing action.
+search/citation_chasing.csv,direction,Type of citation tracing actually undertaken.
+search/citation_chasing.csv,source_study_id,Family in whose references or reading notes the lead was recorded.
+search/citation_chasing.csv,source_locator,Location of the reference match in the actually read source PDF.
+search/citation_chasing.csv,target_study_id,Retained family matched by the citation trace.
+search/citation_chasing.csv,target_title,Title used in the selected backward reference match.
+search/citation_chasing.csv,target_identifier,DOI or repository identifier of the traced target.
+search/citation_chasing.csv,action,Actually performed tracing action; not a planned or assumed search.
+search/citation_chasing.csv,disposition,Result of the recorded tracing action.
+search/citation_chasing.csv,limits,Limits of the recorded search/tracing operation.
+search/crossref_title_triage.csv,search_id,Recorded query/access operation identifier; may denote a batch.
+search/crossref_title_triage.csv,rank,Returned rank within the recorded first-page export.
+search/crossref_title_triage.csv,doi,Digital Object Identifier as recorded; does not alone prove full-text access or version equivalence.
+search/crossref_title_triage.csv,title,Bibliographic publication title.
+search/crossref_title_triage.csv,authors,Bibliographic author list as recorded; order is significant.
+search/crossref_title_triage.csv,year,Returned bibliographic year; does not settle first-public date.
+search/crossref_title_triage.csv,venue,Publication venue as recorded.
+search/crossref_title_triage.csv,screen_status,Disposition at this table's chronological stage; initial and later tables differ intentionally.
+search/crossref_title_triage.csv,reason,Recorded reason for a screening or version-link decision.
+search/crossref_title_triage.csv,candidate_record_id,"Previously matched publication record, if any; may be NA in historical triage."
+search/crossref_title_triage.csv,candidate_study_id,"Previously matched study family, if any; may be NA in historical triage."
+search/reader_citation_leads.csv,source_study_id,Family in whose references or reading notes the lead was recorded.
+search/reader_citation_leads.csv,reading_note,Uncompleted citation lead recorded during full-text reading.
+search/reader_citation_leads.csv,status,"Status of a reading-note flag, not proof of completed citation retrieval."
+search/reader_citation_leads.csv,next_action,Uncompleted follow-up recommendation; does not assert that it happened.
+search/reader_citation_leads.csv,limits,Limits of the recorded search/tracing operation.
+search/search_log.csv,search_id,Recorded query/access operation identifier; may denote a batch.
+search/search_log.csv,source,"Search platform, API or direct-access route actually used."
+search/search_log.csv,search_date,Recorded search/access timestamp or date.
+search/search_log.csv,timezone,Time zone associated with the recorded date/query.
+search/search_log.csv,full_query,"Recorded literal query, URL or accurately labeled request description."
+search/search_log.csv,fields,Source search fields or API parameter used in the recorded operation.
+search/search_log.csv,filters,Date or other source restrictions actually applied.
+search/search_log.csv,page_or_interface_limit,"Actual page size, rank cutoff or interface limit of the operation."
+search/search_log.csv,hit_count,"Source-reported total for the event, when available; not a screened-study denominator."
+search/search_log.csv,export_count,Number exported for the event in the unit specified by export_unit; may be unknown.
+search/search_log.csv,export_unit,Unit counted by export_count; different units must not be pooled.
+search/search_log.csv,original_export_reference,Historical response/export reference in the author archive; file not redistributed here.
+search/search_log.csv,executor,Recorded AI worker or process that performed the search operation; not a human reviewer claim.
+search/search_log.csv,notes,Source-record notes or limitations retained from the author archive.
+search/search_log.csv,original_component_log,Historical component-log reference in the author archive; file not redistributed here.
+search/search_log.csv,raw_response_included,Whether the historical raw response is packaged; NO for this public-candidate export.
+search/2026-10-14/query_index.csv,all fields,Normalized index of the 59 operations of 14 October 2026; see README_provenance.md
+search/2026-10-14/query_index_original.csv,all fields,Historical index bytes as recovered
+search/2026-10-14/retrieval_outcomes.csv,all fields,Normalized full-text retrieval attempts (18)
+search/2026-10-14/negative_outcomes.csv,all fields,Page access failures and unsuccessful retrieval attempts (21); not zero-result searches
+search/2026-10-14/provenance_manifest.csv,all fields,Original relative location and SHA-256 of each locally retained raw file

@@ -1,0 +1,19 @@
+{
+  "recorded_on": "2026-10-15",
+  "source": "Author confirmation in current conversation, relayed by root agent",
+  "author_reported_initial_pdf_sources": [
+    "Web of Science",
+    "ScienceDirect",
+    "SSRN",
+    "other sources"
+  ],
+  "contemporaneous_initial_query_records_available": false,
+  "initial_pdf_reports": 101,
+  "initial_candidate_families": 100,
+  "interpretation": "The author acquisition routes and archived AI public-discovery operations are distinct. No exact query strings, search dates, filters, yields or zero-hit results are inferred for the author collection.",
+  "historical_support_files": [
+    "05_支撑材料/写作方法与期刊要求/acquisition_v01/protocol.md",
+    "90_过程归档/检查记录/acquisition_v01/audit_report.md",
+    "05_支撑材料/写作方法与期刊要求/search_amendment_2026-10-12.md"
+  ]
+}

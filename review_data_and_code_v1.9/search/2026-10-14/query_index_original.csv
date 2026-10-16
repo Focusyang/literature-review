@@ -1,0 +1,60 @@
+﻿log_id,date,operation,exact_query_or_target,raw_record,coverage_note
+web_001-search_query-1,2026-10-14,search_query,"{""q"": ""\""Neame\"" \""1999\"" \""Nonsmooth\"" column generation thesis""}",search/raw/web_001.json,Retained tool response; search-result totals not inferred
+web_001-search_query-2,2026-10-14,search_query,"{""q"": ""\""Briant\"" \""2008\"" \""bundle\"" column generation""}",search/raw/web_001.json,Retained tool response; search-result totals not inferred
+web_001-search_query-3,2026-10-14,search_query,"{""q"": ""\""Sadykov\"" \""Diving\"" \""2019\"" heuristic column generation""}",search/raw/web_001.json,Retained tool response; search-result totals not inferred
+web_001-search_query-4,2026-10-14,search_query,"{""q"": ""\""Branch-and-Price\"" \""Desrosiers\"" \""2024\"" book""}",search/raw/web_001.json,Retained tool response; search-result totals not inferred
+web_002-search_query-1,2026-10-14,search_query,"{""q"": ""\""Boland\"" \""Dethridge\"" \""Dumitrescu\"" 2006 resource constrained shortest path""}",search/raw/web_002.json,Retained tool response; search-result totals not inferred
+web_002-search_query-2,2026-10-14,search_query,"{""q"": ""\""Jepsen\"" \""2008\"" \""subset-row\"" cuts""}",search/raw/web_002.json,Retained tool response; search-result totals not inferred
+web_002-search_query-3,2026-10-14,search_query,"{""q"": ""\""Pecin\"" \""2017\"" \""limited-memory\"" rank""}",search/raw/web_002.json,Retained tool response; search-result totals not inferred
+web_002-search_query-4,2026-10-14,search_query,"{""q"": ""\""Kruber\"" \""Lübbecke\"" \""Parmentier\"" 2017""}",search/raw/web_002.json,Retained tool response; search-result totals not inferred
+web_003-search_query-1,2026-10-14,search_query,"{""q"": ""\""Subset-Row Inequalities Applied to the Vehicle-Routing Problem\"" Jepsen""}",search/raw/web_003.json,Retained tool response; search-result totals not inferred
+web_003-search_query-2,2026-10-14,search_query,"{""q"": ""\""Comparison of bundle and classical column generation\"" pdf""}",search/raw/web_003.json,Retained tool response; search-result totals not inferred
+web_003-search_query-3,2026-10-14,search_query,"{""q"": ""\""Neame\"" \""Nonsmooth Dual Methods\"" thesis 1999""}",search/raw/web_003.json,Retained tool response; search-result totals not inferred
+web_004-search_query-1,2026-10-14,search_query,"{""q"": ""\""Learning to Branch\"" Khalil 2016 pdf""}",search/raw/web_004.json,Retained tool response; search-result totals not inferred
+web_004-search_query-2,2026-10-14,search_query,"{""q"": ""\""Learning When to Use a Decomposition\"" pdf""}",search/raw/web_004.json,Retained tool response; search-result totals not inferred
+web_004-search_query-3,2026-10-14,search_query,"{""q"": ""\""FFCG\"" Hu appendix arxiv""}",search/raw/web_004.json,Retained tool response; search-result totals not inferred
+web_004-search_query-4,2026-10-14,search_query,"{""q"": ""\""Multi-Depot Perishable-Product Routing\"" supplement Shan""}",search/raw/web_004.json,Retained tool response; search-result totals not inferred
+web_005-open-1,2026-10-14,open,"{""ref_id"": ""https://www.sciencedirect.com/journal/computers-and-operations-research/publish/guide-for-authors""}",search/raw/web_005.json,Retained tool response; search-result totals not inferred
+web_005-open-2,2026-10-14,open,"{""ref_id"": ""https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals""}",search/raw/web_005.json,Retained tool response; search-result totals not inferred
+web_006-search_query-1,2026-10-14,search_query,"{""q"": ""\""Nonsmooth dual methods in integer programming\"" Neame thesis melbourne""}",search/raw/web_006.json,Retained tool response; search-result totals not inferred
+web_006-search_query-2,2026-10-14,search_query,"{""q"": ""\""Comparison of bundle and classical column generation\"" site:hal.science""}",search/raw/web_006.json,Retained tool response; search-result totals not inferred
+web_006-search_query-3,2026-10-14,search_query,"{""q"": ""\""Primal Heuristics for Branch and Price\"" pdf Sadykov""}",search/raw/web_006.json,Retained tool response; search-result totals not inferred
+web_006-search_query-4,2026-10-14,search_query,"{""q"": ""\""Polyhedral Analysis and a Preprocessed Labeling Algorithm\"" supplement""}",search/raw/web_006.json,Retained tool response; search-result totals not inferred
+web_007-open-1,2026-10-14,open,"{""ref_id"": ""https://www.math.u-bordeaux.fr/~rsadykov/""}",search/raw/web_007.json,Retained tool response; search-result totals not inferred
+web_007-open-2,2026-10-14,open,"{""ref_id"": ""https://bipop.inrialpes.fr/people/lemarechal/publications.html""}",search/raw/web_007.json,Retained tool response; search-result totals not inferred
+web_007-open-3,2026-10-14,open,"{""ref_id"": ""https://arxiv.org/abs/2412.19066""}",search/raw/web_007.json,Retained tool response; search-result totals not inferred
+web_007-open-4,2026-10-14,open,"{""ref_id"": ""https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6595201""}",search/raw/web_007.json,Retained tool response; search-result totals not inferred
+web_008-click-1,2026-10-14,click,"{""ref_id"": ""turn129view0"", ""id"": 67}",search/raw/web_008.json,Retained tool response; search-result totals not inferred
+web_008-search_query-1,2026-10-14,search_query,"{""q"": ""\""Polyhedral Analysis and a Preprocessed Labeling Algorithm for the Elementary\"" \""supplement\""""}",search/raw/web_008.json,Retained tool response; search-result totals not inferred
+web_008-search_query-2,2026-10-14,search_query,"{""q"": ""\""Neame\"" \""Nonsmooth dual methods in integer programming\"" Melbourne""}",search/raw/web_008.json,Retained tool response; search-result totals not inferred
+web_008-open-1,2026-10-14,open,"{""ref_id"": ""https://arxiv.org/abs/2607.13373""}",search/raw/web_008.json,Retained tool response; search-result totals not inferred
+web_008-open-2,2026-10-14,open,"{""ref_id"": ""https://arxiv.org/abs/2609.34740""}",search/raw/web_008.json,Retained tool response; search-result totals not inferred
+web_009-search_query-1,2026-10-14,search_query,"{""q"": ""\""Polyhedral Analysis and a Preprocessed Labeling Algorithm\""""}",search/raw/web_009.json,Retained tool response; search-result totals not inferred
+web_009-search_query-2,2026-10-14,search_query,"{""q"": ""\""Comparison of Bundle\"" \""Briant\"" pdf -site:researchgate.net -site:scribd.com""}",search/raw/web_009.json,Retained tool response; search-result totals not inferred
+web_010-search_query-1,2026-10-14,search_query,"{""q"": ""Gasse 2019 Exact Combinatorial Optimization Graph Convolutional Neural Networks NeurIPS""}",search/raw/web_010.json,Retained tool response; search-result totals not inferred
+web_010-search_query-2,2026-10-14,search_query,"{""q"": ""\""Jepsen\"" \""subset-row\"" filetype:pdf""}",search/raw/web_010.json,Retained tool response; search-result totals not inferred
+web_010-search_query-3,2026-10-14,search_query,"{""q"": ""\""Limited memory Rank-1 Cuts for Vehicle Routing Problems\"" pdf""}",search/raw/web_010.json,Retained tool response; search-result totals not inferred
+web_011-open-1,2026-10-14,open,"{""ref_id"": ""https://link.springer.com/book/10.1007/978-3-031-96917-1""}",search/raw/web_011.json,Retained tool response; search-result totals not inferred
+web_011-open-2,2026-10-14,open,"{""ref_id"": ""https://ojs.aaai.org/index.php/AAAI/article/view/10080""}",search/raw/web_011.json,Retained tool response; search-result totals not inferred
+web_011-open-3,2026-10-14,open,"{""ref_id"": ""https://link.springer.com/book/10.1007/b135457""}",search/raw/web_011.json,Retained tool response; search-result totals not inferred
+web_012-open-1,2026-10-14,open,"{""ref_id"": ""https://www.math.u-bordeaux.fr/~fvanderb/publications.html""}",search/raw/web_012.json,Retained tool response; search-result totals not inferred
+web_012-open-2,2026-10-14,open,"{""ref_id"": ""https://api.hal.science/search/?q=doiId_s:%2210.1007/s10107-006-0079-z%22&fl=title_s,uri_s,fileMain_s&wt=json""}",search/raw/web_012.json,Retained tool response; search-result totals not inferred
+web_012-open-3,2026-10-14,open,"{""ref_id"": ""https://pure.eur.nl/en/publications/limited-memory-rank-1-cuts-for-vehicle-routing-problems/""}",search/raw/web_012.json,Retained tool response; search-result totals not inferred
+web_012-click-1,2026-10-14,click,"{""ref_id"": ""turn133view0"", ""id"": 8}",search/raw/web_012.json,Retained tool response; search-result totals not inferred
+web_012-click-2,2026-10-14,click,"{""ref_id"": ""turn133view1"", ""id"": 13}",search/raw/web_012.json,Retained tool response; search-result totals not inferred
+web_013-open-1,2026-10-14,open,"{""ref_id"": ""https://hal.science/inria-00342510/document""}",search/raw/web_013.json,Retained tool response; search-result totals not inferred
+web_013-open-2,2026-10-14,open,"{""ref_id"": ""https://hal.science/hal-01237204/document""}",search/raw/web_013.json,Retained tool response; search-result totals not inferred
+web_013-open-3,2026-10-14,open,"{""ref_id"": ""https://www.sciencedirect.com/science/article/pii/S0167637717301049""}",search/raw/web_013.json,Retained tool response; search-result totals not inferred
+web_014-search_query-1,2026-10-14,search_query,"{""q"": ""\""Subset-Row Inequalities\"" \""pdf\"" \""Jepsen\"" \""diku\""""}",search/raw/web_014.json,Retained tool response; search-result totals not inferred
+web_014-search_query-2,2026-10-14,search_query,"{""q"": ""\""Limited memory Rank-1 Cuts\"" filetype:pdf -site:scribd.com -site:researchgate.net""}",search/raw/web_014.json,Retained tool response; search-result totals not inferred
+web_014-search_query-3,2026-10-14,search_query,"{""q"": ""\""Accelerated label setting algorithms\"" filetype:pdf -site:researchgate.net""}",search/raw/web_014.json,Retained tool response; search-result totals not inferred
+web_014-search_query-4,2026-10-14,search_query,"{""q"": ""\""Weighted Dantzig\"" \""pdf\"" Wentges""}",search/raw/web_014.json,Retained tool response; search-result totals not inferred
+web_015-open-1,2026-10-14,open,"{""ref_id"": ""https://arxiv.org/abs/2607.13373""}",search/raw/web_015.json,Retained tool response; search-result totals not inferred
+web_015-open-2,2026-10-14,open,"{""ref_id"": ""https://arxiv.org/abs/2609.34740""}",search/raw/web_015.json,Retained tool response; search-result totals not inferred
+web_015-open-3,2026-10-14,open,"{""ref_id"": ""https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6595201""}",search/raw/web_015.json,Retained tool response; search-result totals not inferred
+web_015-open-4,2026-10-14,open,"{""ref_id"": ""https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7472543""}",search/raw/web_015.json,Retained tool response; search-result totals not inferred
+web_016-open-1,2026-10-14,open,"{""ref_id"": ""https://link.springer.com/article/10.1007/s10107-006-0079-z""}",search/raw/web_016.json,Retained tool response; search-result totals not inferred
+web_016-open-2,2026-10-14,open,"{""ref_id"": ""https://www.sciencedirect.com/science/article/pii/S0167637705000040""}",search/raw/web_016.json,Retained tool response; search-result totals not inferred
+web_016-open-3,2026-10-14,open,"{""ref_id"": ""https://www.sciencedirect.com/science/article/pii/S0167637717301049""}",search/raw/web_016.json,Retained tool response; search-result totals not inferred
+web_016-open-4,2026-10-14,open,"{""ref_id"": ""https://pubsonline.informs.org/doi/abs/10.1287/opre.1070.0449""}",search/raw/web_016.json,Retained tool response; search-result totals not inferred
+final-S014-original,2026-10-14,open and Crossref metadata,https://link.springer.com/article/10.1023/A:1013141227104 ; https://api.crossref.org/works/10.1023%2FA%3A1013141227104,search/raw/crossref_S014_original.json,Original Wilhelm 2001 distinguished from linked 2005 erratum; publisher author/year/volume/pages checked

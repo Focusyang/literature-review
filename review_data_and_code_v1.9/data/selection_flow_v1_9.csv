@@ -1,0 +1,26 @@
+stream,stage,count,derivation
+Crossref,Queries run / returning records,10 / 9,search_log.csv; crossref_title_triage.csv
+Crossref,Records identified,180,crossref_title_triage.csv rows
+Crossref,Duplicate DOI rows removed,10,rows minus distinct DOIs
+Crossref,Distinct DOIs screened at title,170,distinct DOIs
+Crossref,Independent works among distinct DOIs,169,CL075 linked to CL074
+Crossref,Excluded at title,52,screen_status EXCLUDED_AT_TITLE
+Crossref,Already in the full-text frame,39,screen_status REPRESENTED_IN_DOWNLOAD_CHECKLIST
+Crossref,Lead records assessed at title and available abstract,79,additional_lead_dispositions.csv rows
+Crossref,Independent works among lead records,78,CL075 linked to CL074
+Crossref,Not selected: records (Supplementary Table S1),74,NOT_SELECTED_FOR_CRITICAL_SAMPLE
+Crossref,Not selected: independent works,73,CL075 linked to CL074
+Crossref,Excluded (CG as RL action space),1,EXCLUDED
+Crossref,Earlier report of an included family (S018),1,EARLIER_REPORT_OF_INCLUDED_FAMILY
+Crossref,"Supplied, read in full and added to the frame","3 (S102, S103, S104)",FULLTEXT_READ_INCLUDED
+Frame,Reports assembled for full-text assessment (initial),101,"release 1.2 screening.csv and read_reports.csv (version 1.7, data/release_1_2/)"
+Frame,Reports assessed in full text (including 1 linked erratum),104,"release 1.2 screening.csv and read_reports.csv (version 1.7, data/release_1_2/)"
+Frame,Candidate families assessed,103,"release 1.2 screening.csv and read_reports.csv (version 1.7, data/release_1_2/)"
+Frame,Adjacent surveys excluded from method coding,4,"release 1.2 screening.csv and read_reports.csv (version 1.7, data/release_1_2/)"
+Frame,Families retained (core / supporting / background),99 (79 / 8 / 12),"release 1.2 screening.csv and read_reports.csv (version 1.7, data/release_1_2/)"
+Frame,Core families added by the targeted search of 14 October 2026,1 (S105),S105 in data/coded_inventory_v1_9.csv
+Included,Study families read in full (core / supporting / background),100 (80 / 8 / 12),retained families plus S105
+Included,Coded inventory: variants,113,data/coded_inventory_v1_9.csv rows
+Included,Coded inventory: families (core / supporting),70 (64 / 6),distinct study_id by collection
+Included,Core or supporting families not in the coded inventory,18,core and supporting families minus inventory families
+Included,Background families (context only),12,"release 1.2 screening.csv and read_reports.csv (version 1.7, data/release_1_2/)"
