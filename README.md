@@ -1,0 +1,3 @@
+# Current version 1.10
+
+[review_data_and_code_v1.10](review_data_and_code_v1.10/) is the data and code package that accompanies the article *Accelerating Column Generation and Branch-and-Price with Traditional and Learning-Guided Methods: A Critical Review*. It holds the same 82 files as review_data_and_code_v1.10.zip in the Zenodo record of version 1.10, DOI [10.5281/zenodo.23419224](https://doi.org/10.5281/zenodo.23419224). The concept DOI [10.5281/zenodo.23386415](https://doi.org/10.5281/zenodo.23386415) resolves to the latest version. The [package README](review_data_and_code_v1.10/README.md) describes its contents, counts and scripts.

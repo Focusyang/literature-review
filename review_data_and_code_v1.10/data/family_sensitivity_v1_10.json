@@ -1,0 +1,55 @@
+{
+ "TRADITIONAL": {
+  "families": 38,
+  "variants": 63,
+  "highest_scope": {
+   "E1": 5,
+   "E2": 14,
+   "E3": 3,
+   "E4": 16
+  },
+  "families_with_E3_or_E4": 19,
+  "families_only_E0_to_E2": 19,
+  "families_with_mechanism": {
+   "G1": 9,
+   "G2": 11,
+   "G3": 14,
+   "G4": 18,
+   "G5": 7,
+   "GU": 1
+  },
+  "families_with_scope": {
+   "E1": 9,
+   "E2": 29,
+   "E3": 8,
+   "E4": 16
+  }
+ },
+ "LEARNING_GUIDED": {
+  "families": 51,
+  "variants": 67,
+  "highest_scope": {
+   "E0": 1,
+   "E1": 3,
+   "E2": 34,
+   "E3": 4,
+   "E4": 9
+  },
+  "families_with_E3_or_E4": 13,
+  "families_only_E0_to_E2": 38,
+  "families_with_mechanism": {
+   "G1": 11,
+   "G2": 14,
+   "G4": 7,
+   "G5": 23,
+   "GU": 4
+  },
+  "families_with_scope": {
+   "E0": 28,
+   "E1": 5,
+   "E2": 40,
+   "E3": 6,
+   "E4": 9
+  }
+ }
+}

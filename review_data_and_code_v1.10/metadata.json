@@ -1,0 +1,61 @@
+{
+  "title": "Data and code for a critical review of column generation and branch-and-price acceleration",
+  "version": "1.10",
+  "prepared_date": "2026-10-16",
+  "creators": [
+    {
+      "name": "Xinran Yang",
+      "given_name": "Xinran",
+      "family_name": "Yang",
+      "affiliation": "School of Management and Engineering, Capital University of Economics and Business, China"
+    }
+  ],
+  "concept_doi": "10.5281/zenodo.23386415",
+  "version_doi": "10.5281/zenodo.23419224",
+  "repository_url": "https://github.com/Focusyang/literature-review",
+  "resource_type": "dataset",
+  "language": "en",
+  "data_license": "CC-BY-4.0",
+  "software_license": "MIT",
+  "keywords": [
+    "column generation",
+    "branch-and-price",
+    "pricing",
+    "machine learning",
+    "critical review",
+    "reproducibility"
+  ],
+  "description": "Coded inventory of 130 method variants (63 traditional, 67 learning-guided) from all 88 core or supporting study families (80 core, 8 supporting), drawn from a 100-family full-text frame. Includes the v1.10 adjudication record, family-level sensitivity table, Figure 3 and Figure A.1 data, Table 4 source locators, Supplementary Tables S1 and S2 with the supplied-upper-bound column, search records and the 16 October OpenAlex/arXiv coverage check, codebook, 27-case independent re-coding pack with agreement code, and figure sources.",
+  "coverage": {
+    "initial_search_cutoff": "2026-10-11",
+    "follow_up_checks_date": "2026-10-12",
+    "targeted_search_date": "2026-10-14",
+    "timezone": "Asia/Shanghai",
+    "initial_author_collection_sources": [
+      "Web of Science",
+      "ScienceDirect",
+      "SSRN",
+      "other sources"
+    ],
+    "coverage_check_date": "2026-10-16"
+  },
+  "excluded_materials": [
+    "Original paper PDFs",
+    "Third-party extracted full text",
+    "Publisher abstracts",
+    "Raw web responses",
+    "Source-page images"
+  ],
+  "counts": {
+    "variants": 130,
+    "traditional": 63,
+    "learning_guided": 67,
+    "families": 88,
+    "core_families": 80,
+    "supporting_families": 8,
+    "scope_memberships": 207,
+    "recoding_unique_cases": 27,
+    "recoding_random_cases": 24,
+    "recoding_boundary_cases": 4
+  }
+}
